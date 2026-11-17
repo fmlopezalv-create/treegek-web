@@ -10,47 +10,86 @@
 <header class="site"><div class="wrap"><div><a class="brand" href="/walletgek/">WalletGek</a><p>Política de privacidad</p></div></div></header>
 <main>
 <h1>Política de privacidad de WalletGek</h1>
-<p class="muted">Última actualización: 13 de noviembre de 2026</p>
-<p>WalletGek es una aplicación de Treegek para organizar tus finanzas personales: registrar ingresos y gastos,
-cuentas, tarjetas y deudas, y ver cuánto puedes gastar. Esta política explica qué datos usamos, para qué y
-cómo puedes borrarlos.</p>
+<p class="muted">Última actualización: 14 de noviembre de 2026</p>
+<p>WalletGek es una aplicación para organizar tus finanzas personales: registrar ingresos y gastos,
+cuentas, tarjetas y deudas, y ver cuánto puedes gastar. Esta política explica qué datos usamos, para qué,
+con quién se comparten, cuánto tiempo se conservan y cómo puedes borrarlos.</p>
 
 <h2>1. Datos que tratamos</h2>
 <ul>
-  <li><b>Datos de la cuenta:</b> email, nombre, contraseña (guardada solo como huella cifrada, nunca en claro), moneda y país.</li>
-  <li><b>Datos financieros que tú registras:</b> movimientos, categorías, cuentas y tarjetas (nombre, tipo, saldo,
-  cupo, últimos 4 dígitos; <b>nunca</b> el número completo, el CVV ni claves), deudas, cobros, presupuestos,
-  metas de ahorro, recurrentes y notas.</li>
-  <li><b>Asesor IA:</b> las preguntas que le haces.</li>
-  <li><b>Datos técnicos:</b> zona horaria del teléfono (para calcular tus meses) y la dirección IP de cada conexión,
-  que usamos para seguridad (límite de intentos) y no guardamos en tu perfil.</li>
-  <li><b>Solo en tu teléfono:</b> la foto de perfil, tu PIN de bloqueo (como huella cifrada) y una copia de tus
-  datos para usar la app sin conexión. No se envían al servidor.</li>
+  <li><b>Datos de la cuenta:</b> email, nombre (opcional), contraseña (solo se guarda una huella cifrada, nunca en claro),
+  país y moneda.</li>
+  <li><b>Datos financieros que tú registras:</b> movimientos (importe, fecha, categoría y nota), cuentas y tarjetas
+  (nombre, tipo, saldo, cupo y <b>solo</b> los últimos 4 dígitos; <b>nunca</b> el número completo, el CVV ni claves),
+  deudas, cobros, presupuestos, metas de ahorro y pagos recurrentes.</li>
+  <li><b>Notas:</b> el título, el texto y las listas de tus notas se guardan en tu cuenta. Las <b>fotos, grabaciones
+  de voz y dibujos</b> de las notas se guardan <b>solo en tu teléfono</b>: al servidor solo llega una descripción
+  técnica (tipo, tamaño y huella), nunca el archivo.</li>
+  <li><b>Asistente IA (solo si lo usas):</b> tu pregunta, los últimos mensajes de la conversación y un resumen de tus
+  cifras (ver la sección 3). No guardamos tus preguntas ni las respuestas en nuestro servidor.</li>
+  <li><b>Reportes de respuestas del asistente (solo si los envías):</b> si pulsas «Reportar» en una respuesta, se
+  guarda esa respuesta con <b>todos los números sustituidos por #</b> (y sin correos ni identificadores), el motivo que
+  elijas y la nota que quieras añadir, que se depura igual. <b>Nunca</b> se guarda tu pregunta, la conversación ni tus
+  cifras. Antes de enviarlo ves exactamente qué se enviará.</li>
+  <li><b>Datos técnicos:</b> la zona horaria de tu teléfono (para calcular tus meses) y la dirección IP de cada
+  conexión. La IP se usa para seguridad (límite de intentos) y queda en registros de seguridad del servidor
+  (sección 5); no se guarda en tu perfil.</li>
+  <li><b>Informes de fallos (puedes desactivarlos):</b> si la app se cierra por un error, se envía un informe técnico
+  con el tipo de error, la pila de llamadas, la versión de la app y el modelo y la versión de Android de tu teléfono.
+  Antes de enviarlo se eliminan importes, correos, identificadores y claves, y no incluye tu usuario, tu IP, capturas
+  de pantalla ni tu actividad. Puedes desactivarlo en <i>Perfil → Enviar informes de errores</i>.</li>
+  <li><b>Solo en tu teléfono (no se envían):</b> la foto de perfil, tu PIN y huella o rostro (los gestiona Android),
+  una copia de tus datos para usar la app sin conexión y los adjuntos de las notas.</li>
 </ul>
 <p>No usamos publicidad, no vendemos datos y no rastreamos tu actividad en otras apps.</p>
 
 <h2>2. Para qué los usamos</h2>
-<p>Solo para darte el servicio: guardar tus registros, calcular tus cifras (saldo, libre para gastar, salud
-financiera, plan de deudas), enviarte los recordatorios que actives y responder al asesor IA.</p>
+<p>Para darte el servicio: guardar tus registros, calcular tus cifras (saldo, libre para gastar, salud financiera,
+plan de deudas), responder al asistente IA y mostrarte los recordatorios que actives en tu teléfono. También para
+<b>enviarte por correo los códigos de verificación y de recuperación de contraseña</b> y para <b>proteger el
+servicio</b> (detectar intentos abusivos y registrar eventos de seguridad).</p>
 
 <h2>3. Con quién se comparten</h2>
 <ul>
-  <li><b>Proveedores de infraestructura</b> que alojan el servidor y la base de datos (Render y Neon), solo para
+  <li><b>Proveedores de infraestructura que tratan datos por nuestra cuenta:</b> Render (servidor), Neon (base de
+  datos) y Resend (envío de los correos de verificación y recuperación: recibe tu email y el código). Solo para
   prestar el servicio.</li>
-  <li><b>Asesor IA (solo si lo usas):</b> para responderte se envía al proveedor de IA tu pregunta y un resumen de tus
-  cifras (ingresos y gastos del mes; nombre, saldo y tasa de tus deudas; fondo de emergencia), <b>sin tu email ni tu nombre</b>.
-  Plan gratuito: OpenRouter, exigiendo proveedores que no guardan ni entrenan con los datos. Modelo de pago: DeepSeek.</li>
-  <li><b>Tipografías:</b> la app puede descargar fuentes de Google Fonts. Esa conexión no incluye ninguno de tus datos.</li>
+  <li><b>Informes de fallos:</b> los recibe Sentry (Estados Unidos), que los trata por nuestra cuenta únicamente para
+  diagnosticar errores de la app. No los usa para publicidad ni los vende.</li>
+  <li><b>Asistente IA (solo si lo usas):</b> para responderte enviamos a un proveedor de IA tu pregunta, hasta 6 mensajes
+  recientes de la conversación y un resumen de tus cifras: país y moneda; ingresos, gastos y ahorro del mes; tu
+  puntuación de salud financiera y sus consejos; cuánto te queda libre para gastar; deuda total y cuotas y, por cada
+  deuda, su nombre, saldo, tasa y cuota; presupuesto global; cobros pendientes; y fondo de emergencia.
+  <b>No enviamos tu email, tu nombre, tus movimientos individuales ni tus notas.</b> La app te lo recuerda antes de tu
+  primera pregunta.
+    El proveedor de IA es OpenRouter, y exigimos que use solo proveedores que no guardan ni entrenan con los datos.
+  </li>
+  <li><b>Dónde se almacenan:</b> el servidor (Render, región Oregón), la base de datos (Neon) y el registro de correos (Resend) están en Estados Unidos.</li>
 </ul>
 <p>No compartimos tus datos con nadie más, salvo obligación legal.</p>
 
 <h2>4. Seguridad</h2>
-<p>Todas las conexiones van cifradas (HTTPS). Las sesiones caducan y se renuevan; en el teléfono los datos de
-acceso se guardan cifrados con el almacén seguro de Android.</p>
+<p>Todas las conexiones van cifradas (HTTPS). Las sesiones caducan y se renuevan; en el teléfono los datos de acceso
+y la copia sin conexión se guardan cifrados con el almacén seguro de Android.</p>
 
 <h2>5. Cuánto tiempo los guardamos</h2>
-<p>Mientras tengas la cuenta. Al borrarla se eliminan del servidor tu usuario y todos tus datos financieros de
-forma inmediata y definitiva. Las copias de seguridad que tú descargues quedan bajo tu control.</p>
+<ul>
+  <li><b>Mientras tengas la cuenta.</b> Al borrarla, tu usuario y todos tus datos se eliminan de la base de datos
+  <b>de inmediato y de forma definitiva</b>.</li>
+  <li><b>Excepciones por seguridad.</b> Pueden permanecer durante un tiempo limitado: (a) la ventana de recuperación de
+  la base de datos del proveedor, hasta <b>6 horas</b>; (b) los registros de seguridad del servidor (identificador de
+  usuario, huella corta del correo, IP y tipo de evento; sin contraseñas, tokens ni importes), por un máximo de
+  <b>30 días</b>; y (c) el registro de envío de correos, que incluye tu email y el código enviado, durante
+  <b>30 días</b>. Los usamos solo para seguridad y prevención de fraude. Los avisos de seguridad graves pueden
+  enviarse además a quien administra el servicio.</li>
+  <li><b>Informes de fallos.</b> No llevan tu usuario ni tu IP, por lo que no se pueden asociar a tu cuenta y no se
+  borran con ella; Sentry los elimina automáticamente a los <b>30 días</b>. Puedes dejar de enviarlos en cualquier
+  momento desde Perfil.</li>
+  <li><b>Reportes de respuestas del asistente.</b> Se guardan <b>30 días</b> y se eliminan automáticamente; también se
+  borran al eliminar tu cuenta. Los usamos solo para mejorar el filtrado y la seguridad del asistente.</li>
+  <li>Lo que hayas enviado al asistente IA se rige por las condiciones del proveedor indicado en la sección 3.</li>
+  <li>Las copias de seguridad que tú descargues quedan bajo tu control.</li>
+</ul>
 
 <h2>6. Tus derechos y cómo borrar tu cuenta</h2>
 <ul>
@@ -60,15 +99,23 @@ forma inmediata y definitiva. Las copias de seguridad que tú descargues quedan 
   <a href="/walletgek/borrar-cuenta.html">borrar mi cuenta</a>.</li>
 </ul>
 
-<h2>7. Menores</h2>
+<h2>7. Permisos de la app</h2>
+<ul>
+  <li><b>Micrófono:</b> solo para grabar notas de voz; el audio se queda en tu teléfono.</li>
+  <li><b>Notificaciones y arranque del teléfono:</b> para mostrarte los recordatorios que actives (se generan en tu
+  teléfono).</li>
+  <li><b>Huella o rostro:</b> solo para desbloquear la app; no recibimos esos datos.</li>
+</ul>
+
+<h2>8. Menores</h2>
 <p>WalletGek no está dirigida a menores de 18 años.</p>
 
-<h2>8. Aviso</h2>
+<h2>9. Aviso</h2>
 <p>WalletGek ofrece orientación educativa. No es asesoría financiera, fiscal ni legal regulada.</p>
+<p>Responsable del tratamiento: Felipe López (TREEGEK), Ecuador. Contacto: soporte@treegekec.com</p>
 
-<h2>9. Cambios y contacto</h2>
-<p>Si cambiamos esta política, actualizaremos la fecha de arriba. Escríbenos a
-<a href="mailto:soporte@treegekec.com">soporte@treegekec.com</a>.</p>
+<h2>10. Cambios y contacto</h2>
+<p>Si cambiamos esta política, actualizaremos la fecha de arriba. Escríbenos a <a href="mailto:soporte@treegekec.com">soporte@treegekec.com</a>.</p>
 </main>
 <footer class="site"><div class="wrap">
   <a href="/walletgek/">WalletGek</a>
